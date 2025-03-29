@@ -112,7 +112,9 @@ void PRINT_BILL_TERMINAL(item ar[], int x, float S_T, float V, float V_A, float 
             ar[j].NAME, ar[j].QUANTITY, ar[j].UNIT_PRICE, ar[j].ITEM_TOTAL);
         }
         DIVIDER();
-        //PRINTING THE SUBTOTAL , VAT PERRCENTAGE AND AMOUNT , TOTAL. 
+        //PRINTING SUBTOTAL =
+        //VAT PERRCENTAGE AND AMOUNT =
+        // TOTAL =
         printf("SUBTOTAL : %.2f\nVAT %.1f%% : %.2f \nTOTAL : %.2f\n",
         S_T , V ,V_A, T_A_V);
     }
